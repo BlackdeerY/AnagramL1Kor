@@ -29,7 +29,6 @@ public class AnagramService {
 		 * rest: 입력 문자열 중 아직 처리되지 않은 남은 문자들.
 		 * result: 처리된 문자열로 최종적으로 반환될 문자열.
 		 */
-		//String rest = input;
 		StringBuilder result = new StringBuilder();
 		while (rest.length() > 0)
 		{
